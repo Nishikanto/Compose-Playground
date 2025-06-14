@@ -6,7 +6,8 @@ import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.compose.material3.windowsizeclass.ExperimentalMaterial3WindowSizeClassApi
 import androidx.compose.material3.windowsizeclass.calculateWindowSizeClass
-import com.example.compose_playground.ui.myotherappscreens.MyOtherApp
+import com.example.compose_playground.ui.myotherappscreen.MyOtherApp
+import com.example.compose_playground.ui.mystateexerappscreen.MyStateExerApp
 import com.example.compose_playground.ui.theme.ComposePlaygroundTheme
 
 class MainActivity : ComponentActivity() {
@@ -16,10 +17,15 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
-            val windowSizeClass = calculateWindowSizeClass(this)
             ComposePlaygroundTheme {
-                MyOtherApp(windowSizeClass)
+                MyStateExerApp()
             }
+
+            
+//            val windowSizeClass = calculateWindowSizeClass(this)
+//            ComposePlaygroundTheme {
+//                MyOtherApp(windowSizeClass)
+//            }
         }
     }
 }

@@ -1,4 +1,4 @@
-package com.example.compose_playground.ui.myappscreens
+package com.example.compose_playground.ui.myappscreen
 
 import androidx.compose.material3.Surface
 import androidx.compose.runtime.Composable

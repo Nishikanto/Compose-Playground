@@ -1,4 +1,4 @@
-package com.example.compose_playground.ui.myotherappscreens
+package com.example.compose_playground.ui.myotherappscreen
 
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.AccountBox
@@ -6,19 +6,19 @@ import androidx.compose.material.icons.filled.Home
 import androidx.compose.material.icons.filled.Search
 import androidx.compose.material.icons.filled.Settings
 import androidx.compose.material3.Icon
-import androidx.compose.material3.NavigationRail
-import androidx.compose.material3.NavigationRailItem
+import androidx.compose.material3.NavigationBar
+import androidx.compose.material3.NavigationBarItem
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 
 @Composable
-fun MyNavigationRail(modifier: Modifier = Modifier) {
-    NavigationRail(
-        modifier = modifier
+fun MyNavigationBar(modifier: Modifier = Modifier) {
+    NavigationBar(
+        modifier = modifier,
     ) {
-        NavigationRailItem(
+        NavigationBarItem(
             icon = {
                 Icon(
                     imageVector = Icons.Default.Home,
@@ -33,7 +33,7 @@ fun MyNavigationRail(modifier: Modifier = Modifier) {
 
             }
         )
-        NavigationRailItem(
+        NavigationBarItem(
             icon = {
                 Icon(
                     imageVector = Icons.Default.AccountBox,
@@ -48,7 +48,7 @@ fun MyNavigationRail(modifier: Modifier = Modifier) {
 
             }
         )
-        NavigationRailItem(
+        NavigationBarItem(
             icon = {
                 Icon(
                     imageVector = Icons.Default.Settings,
@@ -63,7 +63,7 @@ fun MyNavigationRail(modifier: Modifier = Modifier) {
 
             }
         )
-        NavigationRailItem(
+        NavigationBarItem(
             icon = {
                 Icon(
                     imageVector = Icons.Default.Search,
@@ -83,6 +83,6 @@ fun MyNavigationRail(modifier: Modifier = Modifier) {
 
 @Composable
 @Preview
-fun MyNavigationRailPreview() {
-    MyNavigationRail()
+fun MyNavigationBarPreview() {
+    MyNavigationBar()
 }

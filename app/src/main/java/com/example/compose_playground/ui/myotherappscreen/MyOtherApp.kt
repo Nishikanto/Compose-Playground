@@ -1,4 +1,4 @@
-package com.example.compose_playground.ui.myotherappscreens
+package com.example.compose_playground.ui.myotherappscreen
 
 import android.content.res.Configuration
 import androidx.compose.foundation.background

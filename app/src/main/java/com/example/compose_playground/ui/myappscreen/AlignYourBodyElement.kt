@@ -1,4 +1,4 @@
-package com.example.compose_playground.ui.myappscreens
+package com.example.compose_playground.ui.myappscreen
 
 import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes

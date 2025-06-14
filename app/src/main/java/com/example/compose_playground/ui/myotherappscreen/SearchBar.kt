@@ -1,4 +1,4 @@
-package com.example.compose_playground.ui.myotherappscreens
+package com.example.compose_playground.ui.myotherappscreen
 
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.heightIn
