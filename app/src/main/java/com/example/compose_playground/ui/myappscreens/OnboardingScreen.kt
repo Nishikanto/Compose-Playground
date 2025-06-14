@@ -1,4 +1,4 @@
-package com.example.compose_playground.ui.screens
+package com.example.compose_playground.ui.myappscreens
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
